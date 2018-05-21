@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sirvadim/Rock-Scissors-Paper#readme",
   "dependencies": {
     "jquery": "^3.2.1",
-    "truffle": "^4.1.0",
+    "truffle": "^4.1.8",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.30"
   },
@@ -50,7 +50,7 @@
     "pug-loader": "^2.3.0",
     "sass-loader": "^6.0.6",
     "sinon": "^4.4.2",
-    "solidity-coverage": "^0.4.15",
+    "solidity-coverage": "^0.5.2",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.2"

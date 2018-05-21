@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/sirvadim/Rock-Scissors-Paper/badge.svg?branch=master)](https://coveralls.io/github/sirvadim/Rock-Scissors-Paper?branch=master)
