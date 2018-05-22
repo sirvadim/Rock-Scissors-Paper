@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "./node_modules/.bin/solidity-coverage"
+    "test": "./node_modules/.bin/solidity-coverage && codecov -t 2abf8d34-a140-4670-8d33-6a722826709b"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "chai": "^4.1.2",
+    "codecov": "^1.0.1",
     "coveralls": "^3.0.1",
     "css-loader": "^0.28.10",
     "extract-text-webpack-plugin": "^3.0.2",
