@@ -8,6 +8,7 @@ before_script:
   - sleep 5
 script:
   - npm run test && cat coverage/lcov.info
+  - codecov
 before_install:
   - npm install -g npm@'>=6.0.1'
 after_success:
