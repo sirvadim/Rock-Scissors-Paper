@@ -1,10 +1,19 @@
+sudo: required
+dist: trusty
 language: node_js
 node_js:
   - 10.1.0
+before_script:
+  - testrpc > /dev/null &
+  - sleep 5
 script:
-  - npm run test
+  - npm run test && cat coverage/lcov.info | coveralls
 before_install:
   - npm install -g npm@'>=6.0.1'
+install:
+  - npm install -g truffle
+  - npm install -g ganache-cli
+  - npm install
 after_success:
   - ./node_modules/.bin/jscoverage lib lib-cov
   - MYPROJECT_COV=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
