@@ -1,2 +1,3 @@
 [![Coverage Status](https://coveralls.io/repos/github/sirvadim/Rock-Scissors-Paper/badge.svg?branch=master)](https://coveralls.io/github/sirvadim/Rock-Scissors-Paper?branch=master)
 [![Build Status](https://travis-ci.org/sirvadim/Rock-Scissors-Paper.svg?branch=master)](https://travis-ci.org/sirvadim/Rock-Scissors-Paper)
+[![codecov](https://codecov.io/gh/sirvadim/Rock-Scissors-Paper/branch/master/graph/badge.svg)](https://codecov.io/gh/sirvadim/Rock-Scissors-Paper)
